@@ -35,3 +35,4 @@ build/
 # Application config
 src/main/resources/application.properties
 ../.metadata/
+.metadata/
