@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+select,
+button {
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.4) !important;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
